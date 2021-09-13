@@ -12,6 +12,7 @@ xcuserdata/
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 build/
 DerivedData/
+derived_data/
 *.moved-aside
 *.pbxuser
 !default.pbxuser
@@ -64,7 +65,9 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
 
-Carthage/Build/
+Carthage/Build/*.xcframework
+Carthage/Build/*.framework
+Carthage/Build/*.zip
 
 # Accio dependency management
 Dependencies/
