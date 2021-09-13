@@ -1,0 +1,19 @@
+{
+  "commitish" : "v5.1.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
+      "hash" : "df97124aecf1874bc0d05f0febb6da1d2960a471e0f2ff394faba8f5799db681",
+      "name" : "Reachability",
+      "container" : "Reachability.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
+      "hash" : "8998f2c7b45bf93771ca6537e181220072bb6ef5e00c8eadfc6b38a89de38b89",
+      "name" : "Reachability",
+      "container" : "Reachability.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

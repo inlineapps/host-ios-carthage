@@ -1,0 +1,19 @@
+{
+  "commitish" : "4.7.2",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
+      "hash" : "33b4f94bce67eb1ff2951cf36862524a7a88cc1ebcb3bcbaaa0918bfcec435b9",
+      "name" : "Stevia",
+      "container" : "Stevia.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
+      "hash" : "9ccd47697d3c399debc23f33955fe5cba5776ebbe0b0710fd0abf79f6b8ece2c",
+      "name" : "Stevia",
+      "container" : "Stevia.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

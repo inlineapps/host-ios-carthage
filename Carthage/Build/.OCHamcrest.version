@@ -1,0 +1,17 @@
+{
+  "commitish" : "v8.0.0",
+  "iOS" : [
+    {
+      "hash" : "17ee605c9031b0fd9f1d9c4892c41ac505016c39e016568105fcc5d8b5bbffba",
+      "name" : "OCHamcrest",
+      "container" : "OCHamcrest.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "98813ecfc8af110c55a8efb32bf41825b0d9f4bb72c378b346b75a6682fffc0f",
+      "name" : "OCHamcrest",
+      "container" : "OCHamcrest.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

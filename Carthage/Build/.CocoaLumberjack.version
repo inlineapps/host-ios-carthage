@@ -1,0 +1,17 @@
+{
+  "commitish" : "3.7.2",
+  "iOS" : [
+    {
+      "hash" : "092cd9680f67b8fd58e1f44d7ba11ab1ea45915eee1e10f378ff9d1557bd3727",
+      "name" : "CocoaLumberjack",
+      "container" : "CocoaLumberjack.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "179d601c3707668e01595a204fc0fc374a0b287cf2760de5cbd116eb9164c0f3",
+      "name" : "CocoaLumberjack",
+      "container" : "CocoaLumberjack.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}
