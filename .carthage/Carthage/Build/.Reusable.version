@@ -2,15 +2,15 @@
   "commitish" : "4.1.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
-      "hash" : "1fe35e536c783492d23c387c17689689551833d03139c33754d3e475ff18f6ee",
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "fe3929fc206d224e810f8e2127b5ae6c810c83c8fc131339d52ccc38ea64b0fd",
       "name" : "Reusable",
       "container" : "Reusable.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
-      "hash" : "9a225734aa2ea9bcaf2917bd2330737843655fbc0299ef79075d2fe7436db43a",
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "0df2bb15653848c6e8c29abdae8f5a9901366b26c30ea3979b08396beaba46fc",
       "name" : "Reusable",
       "container" : "Reusable.xcframework",
       "identifier" : "ios-arm64_armv7"

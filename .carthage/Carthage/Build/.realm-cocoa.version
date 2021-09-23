@@ -2,30 +2,42 @@
   "commitish" : "v5.5.2",
   "iOS" : [
     {
-      "hash" : "8ddb8a6bb6c29a3b7ec3a4d60def2fda2d31e2cea2b4994684ab1b536355af79",
+      "hash" : "3976ea389ef40c76682c06623a8c9bf8422770b20866f525d40b5bc91a081477",
       "name" : "Realm",
       "container" : "Realm.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "hash" : "47289b9e95b7d169a58d9d81d26eb8970ee0d9439bf4f3f089687ca8266e9d82",
+      "hash" : "3976ea389ef40c76682c06623a8c9bf8422770b20866f525d40b5bc91a081477",
+      "name" : "Realm",
+      "container" : "Realm.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "1307bce399da7f717517c0b0455fda6459966fe478acf54565f52a9268b91d0c",
       "name" : "Realm",
       "container" : "Realm.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
-      "hash" : "6c0693a5c6958cf5a87fc9b8d9cc36926f43a033ab0678b05e4ae970b8795b03",
-      "name" : "RealmSwift",
-      "container" : "RealmSwift.xcframework",
+      "hash" : "1307bce399da7f717517c0b0455fda6459966fe478acf54565f52a9268b91d0c",
+      "name" : "Realm",
+      "container" : "Realm.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
-      "hash" : "637730c3b8fcda50719aad5109b48f2ae0ead937802f12fa3bfef617bc6f4f5d",
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "f3d83dcd2d9df436823e207bc085064cbe90a4445afc9842298ba0473d1b677b",
       "name" : "RealmSwift",
       "container" : "RealmSwift.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "fd10a0c5b149afee048a5005f6b69c1436890bb1c2bfa54a96669e537adbd484",
+      "name" : "RealmSwift",
+      "container" : "RealmSwift.xcframework",
+      "identifier" : "ios-arm64_armv7"
     }
   ]
 }

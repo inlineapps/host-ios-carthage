@@ -2,15 +2,15 @@
   "commitish" : "2.0.2",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
-      "hash" : "7857c58e6138b4b3fa4a2f684b9e192fb2978bbc1490ed6d5fd0460804d321ae",
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "96421abf142730848ad2e14aa3216b107c9a18cbdd8929889c037c3a3afe88a3",
       "name" : "GDPerformanceView",
       "container" : "GDPerformanceView.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)",
-      "hash" : "1cc789d33872801e308788138c8109c1e725362d9fc6326f140396ba19ee3a77",
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "64827d6787b2d97c8a5f19ecd77f2516276308f892ca84089125c945244e2d59",
       "name" : "GDPerformanceView",
       "container" : "GDPerformanceView.xcframework",
       "identifier" : "ios-arm64_armv7"
