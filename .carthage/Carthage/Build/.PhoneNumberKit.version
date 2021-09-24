@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "ddba74b25f0b4aeb4045b8620d60ea66c875a3a5702da5e2181b9c984a540a50",
+      "hash" : "0c3ca8e0126a572a85d55c95cba1b8a676c44e5513cbbef2e8b18b442453dc57",
       "name" : "PhoneNumberKit",
       "container" : "PhoneNumberKit.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "0ebbf89f1a81601caf1ceb6f76e452ff6d3020c5db481ac029032248f33772c2",
+      "hash" : "4c10b192483436bcccf157c424ced22ca34254b492f549db52d04e77e7890517",
       "name" : "PhoneNumberKit",
       "container" : "PhoneNumberKit.xcframework",
       "identifier" : "ios-arm64_armv7"

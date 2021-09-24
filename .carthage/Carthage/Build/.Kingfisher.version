@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "d4cc7d2d85f1c43484ef558bea5d0083d71eee48b76b78370d722cf247136986",
+      "hash" : "80c9edd3f731e8386453732bb85d03edd3b70733e948307ba64ef3d189a19deb",
       "name" : "Kingfisher",
       "container" : "Kingfisher.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "2d84340db39deca62ea58b0a8a20ec8760c0d70bf5d9c2264002df87bae22293",
+      "hash" : "ac049840914f11b1bee364ccb3739e31c97685f5f0ab4d5edfbdfc11b1aeab3b",
       "name" : "Kingfisher",
       "container" : "Kingfisher.xcframework",
       "identifier" : "ios-arm64"

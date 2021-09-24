@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "4952c617f1466faafd61115d846ed5b8f2b68338a5bd3cb41db48789b650a3cf",
+      "hash" : "30a623482d3fee830672eae5d1e580de55ef20c043349f959bbfc7f656f24e04",
       "name" : "Stevia",
       "container" : "Stevia.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "b899f74c106dfa902eee618eadbda6fa0f386ab3f6e08b3d3d414cdad35bc926",
+      "hash" : "e0656e967256f24d05a61904b6c49594f89ffd06785b9e0345145d2304b56839",
       "name" : "Stevia",
       "container" : "Stevia.xcframework",
       "identifier" : "ios-arm64_armv7"

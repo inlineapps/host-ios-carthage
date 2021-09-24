@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "745346ebece04a6f9a784fed22490f81cfbf1a6d67906a80c24ec468db6fae54",
+      "hash" : "c35a17b64bf0a3f8ce55840db581d6dc41c09e05fe9c2883e3bf6b45aff1dd46",
       "name" : "Valet",
       "container" : "Valet.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "ee5f68f06f7083aa589f585a460dae5326a5dfd8371bf96c1611b1f1381c4ea6",
+      "hash" : "4363c0579335f6411418907db04747869fc240ad983236bbc0102da10e78bc7e",
       "name" : "Valet",
       "container" : "Valet.xcframework",
       "identifier" : "ios-arm64_armv7"

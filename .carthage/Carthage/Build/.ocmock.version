@@ -2,13 +2,13 @@
   "commitish" : "v3.8.1",
   "iOS" : [
     {
-      "hash" : "f1eb2b707058a7996cac7d8652a8582b639ba87bff029281e1253967a40eb927",
+      "hash" : "3008e2240a53f52a5ca605c873851e0e0f0d9e95e7cc6f5c58a187bb9981d9cf",
       "name" : "OCMock",
       "container" : "OCMock.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
-      "hash" : "3b2bcddd7913503f337cb8b96ba41535e425b2c8da3ef1e4acf85c2549b36d6c",
+      "hash" : "ad39688dd9720996e77101e36aeb789003b1d154defed0f7db8c64509911cd13",
       "name" : "OCMock",
       "container" : "OCMock.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"

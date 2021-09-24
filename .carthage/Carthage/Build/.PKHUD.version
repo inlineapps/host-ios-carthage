@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "ad7d32a6bcc010cca60b53f3940faea0e3279dea932c6d6f6f8586b644b0ef4b",
+      "hash" : "4b4d2e3570021fadb2eb1cdf57be0eae64fe9426e7c731d53bab9e105ba01d9f",
       "name" : "PKHUD",
       "container" : "PKHUD.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "175797f4c47f620b0280fc83e1779e3cb516b58b7661635024c2dfabce61beb3",
+      "hash" : "779a88697890e34b524c3a9c230fac6ccb436091c84e82f790583d02ec90c633",
       "name" : "PKHUD",
       "container" : "PKHUD.xcframework",
       "identifier" : "ios-arm64_armv7"

@@ -2,13 +2,13 @@
   "commitish" : "v6.0.0",
   "iOS" : [
     {
-      "hash" : "03354816bcab5c6742ffabd9ca315f4c51313914cdba45e08139212cc6101b6e",
+      "hash" : "6e90b053c3a3401ed4dcd4c863db8b4e66422722d08b22c0bf47ec397a2e251a",
       "name" : "OCMockito",
       "container" : "OCMockito.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "hash" : "4cb7379dfcc284a0002945527395a51ecca1034087b2e3c40c9b786e22d2dab2",
+      "hash" : "56498e1d8147e1b75d0a3476a561d1724098b1481b68ec6578e79baf87363af9",
       "name" : "OCMockito",
       "container" : "OCMockito.xcframework",
       "identifier" : "ios-arm64_armv7"

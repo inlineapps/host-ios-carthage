@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "a1977a6fe80cb875e703323a1a1fce8853f67fb68759fee75ebc3064fd4d3315",
+      "hash" : "20a76915a6dc4744fe0f1e4d2131f358de1456335e180955a05d0602c0579fb2",
       "name" : "ObjectMapper",
       "container" : "ObjectMapper.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "38dbd29dfddd89d6c3661ad2e329285bf895997f3c109e3c9d3397a2abcedb08",
+      "hash" : "11c0ca62ac79da15bc8bb8d673b533a3eedc17b4aa2565fb7f8af2dd4bffba5f",
       "name" : "ObjectMapper",
       "container" : "ObjectMapper.xcframework",
       "identifier" : "ios-arm64_armv7"

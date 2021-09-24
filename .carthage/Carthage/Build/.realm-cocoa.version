@@ -2,39 +2,39 @@
   "commitish" : "v5.5.2",
   "iOS" : [
     {
-      "hash" : "3976ea389ef40c76682c06623a8c9bf8422770b20866f525d40b5bc91a081477",
+      "hash" : "96f7485f9a3209dc9384cdb688f6b9fc286362175da0bf33eedabef3d713ff89",
       "name" : "Realm",
       "container" : "Realm.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "hash" : "3976ea389ef40c76682c06623a8c9bf8422770b20866f525d40b5bc91a081477",
+      "hash" : "96f7485f9a3209dc9384cdb688f6b9fc286362175da0bf33eedabef3d713ff89",
       "name" : "Realm",
       "container" : "Realm.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "hash" : "1307bce399da7f717517c0b0455fda6459966fe478acf54565f52a9268b91d0c",
+      "hash" : "92c5074e4180c5582a9451061f9d04173daecc3a74208525a74ae337e914bb5b",
       "name" : "Realm",
       "container" : "Realm.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
-      "hash" : "1307bce399da7f717517c0b0455fda6459966fe478acf54565f52a9268b91d0c",
+      "hash" : "92c5074e4180c5582a9451061f9d04173daecc3a74208525a74ae337e914bb5b",
       "name" : "Realm",
       "container" : "Realm.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "f3d83dcd2d9df436823e207bc085064cbe90a4445afc9842298ba0473d1b677b",
+      "hash" : "6f644122afe56f869ec1739cd513458d68481e26bc92068b22323b7b54cb12f4",
       "name" : "RealmSwift",
       "container" : "RealmSwift.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "fd10a0c5b149afee048a5005f6b69c1436890bb1c2bfa54a96669e537adbd484",
+      "hash" : "a36637c8b87bf8187e2d55aaefa57f67fbe3c7b14e19d28095de6092d8ca281f",
       "name" : "RealmSwift",
       "container" : "RealmSwift.xcframework",
       "identifier" : "ios-arm64_armv7"

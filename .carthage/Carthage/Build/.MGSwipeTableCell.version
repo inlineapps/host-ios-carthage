@@ -2,16 +2,16 @@
   "commitish" : "1.6.11",
   "iOS" : [
     {
-      "hash" : "45523cf1ce76cbad8c033f4c614829f4dd167c1d6d27c5e699396042789596bf",
-      "name" : "MGSwipeTableCell",
-      "container" : "MGSwipeTableCell.xcframework",
-      "identifier" : "ios-arm64_armv7"
-    },
-    {
-      "hash" : "2f44ef998989687710af89cc757524df8ae68ba37bf58f94486f0b1dbd27da7d",
+      "hash" : "5d2fb771c79a1b9287a9c623de3d07d3cac32ce91eba3b12072abd8200df3545",
       "name" : "MGSwipeTableCell",
       "container" : "MGSwipeTableCell.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "7475ed0036d6d4ade8435a6a583a220c30d446c043b62e9379332e7eeb340429",
+      "name" : "MGSwipeTableCell",
+      "container" : "MGSwipeTableCell.xcframework",
+      "identifier" : "ios-arm64_armv7"
     }
   ]
 }

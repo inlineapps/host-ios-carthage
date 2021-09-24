@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "b49096691bf4b4a5cd9cc33faa196dbea2b0a320c722e4242830abcd31c66233",
+      "hash" : "3d16edcab52a81e8bc714257bdc0d198a9ac328c5a43f4ecf1864dd28cfb82a3",
       "name" : "PromiseKit",
       "container" : "PromiseKit.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "329283452b5d8e3bac619bcc71e65fc062b2bf7614e429c12e172267524f1afd",
+      "hash" : "5a12763c884f7088d53122f3743c8f849bd4afc1e2345b8899f55ac78f977dd8",
       "name" : "PromiseKit",
       "container" : "PromiseKit.xcframework",
       "identifier" : "ios-arm64_armv7"

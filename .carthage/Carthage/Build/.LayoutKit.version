@@ -3,28 +3,28 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "c037ec8810baec0679fc2d1ea8086291aa01c8a376af70ff011434bf2622a1f1",
+      "hash" : "c5605490ef1b237b95d7ba40fc15ba96b2cc9bc4f94b7385b9f9e4f631b3bff5",
       "name" : "ExampleLayouts",
       "container" : "ExampleLayouts.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "205f18a71f9999c83472254ee01b269ddd54b60ce3e239044d019d50aef23a47",
+      "hash" : "38277f14156ce043b7e4d7d455d63b3099999e78c1e7ef55751c51a21e5190ae",
       "name" : "ExampleLayouts",
       "container" : "ExampleLayouts.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "164b6ed687acdb9093b410f306019110511b9487192b8b38606e70a2dd4891dc",
+      "hash" : "aacd1904edffe7be0fc242f8ad8afc33f8d00fa15e284d5fa36b4647cd4450a8",
       "name" : "LayoutKit",
       "container" : "LayoutKit.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "3174f2b22dd8ebed35c799e3e05f774dd89b481776a73d90e9e73b09b4d95a9e",
+      "hash" : "fe5d04340393d9d37db3122a5a3a9028ef87d0f6263d8cb969f5eaf98f9a88e3",
       "name" : "LayoutKit",
       "container" : "LayoutKit.xcframework",
       "identifier" : "ios-arm64_armv7"

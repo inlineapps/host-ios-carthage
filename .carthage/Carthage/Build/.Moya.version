@@ -3,42 +3,42 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "39ec3693b45245559aafabcf4a1597033c4415929562fb27a384361ccdc832a8",
+      "hash" : "ad2861a30a472ddcf2f0cbcd748a4cc08026cd740fbe05d10105f26687d3c0c5",
       "name" : "Moya",
       "container" : "Moya.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "1e77084eec973ba721aa6ba94c0675e302bccaf8fe826c85051d04450a8a2306",
+      "hash" : "fb584e4974a14a2a7dcc7222c19304faa9eaed339a16abcce9c80dc43085222f",
       "name" : "Moya",
       "container" : "Moya.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "fd157015ac005d308554060c0274b450641390c8ad6dbbbffd59dc13530bf0a9",
+      "hash" : "8a465fd030aa5dec69939e1cc0ed53c7f5437c0e3fcf37b7df8fd89a21453ec4",
       "name" : "ReactiveMoya",
       "container" : "ReactiveMoya.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "10479aacbeb2314bda1f7bdd0c6d1b80ea62cf74853c6e9c41af790d0bd30d8c",
+      "hash" : "d926cc7700caae7dd0024752c3c76b7a7043ea308cff273f1139d68d7ace1fed",
       "name" : "ReactiveMoya",
       "container" : "ReactiveMoya.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "51f97e1f318bb069216c0f679eafa49006ba50cf0ec5eaafd9015b4be34a1ddb",
+      "hash" : "72220c39f8c996467548508bc0f94516460d197639d0e5fa3d9d7d7d291dcba5",
       "name" : "RxMoya",
       "container" : "RxMoya.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "37d60f7fdfff26a2831d6288edd19102e2f923c71bb9eca38887dbc4d994a36b",
+      "hash" : "cebcbe2371640635441a313824b1dbf2caf4bbd35217303a3f4557d8796bfdbd",
       "name" : "RxMoya",
       "container" : "RxMoya.xcframework",
       "identifier" : "ios-arm64_armv7"

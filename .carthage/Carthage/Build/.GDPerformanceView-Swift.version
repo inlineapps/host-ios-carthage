@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "96421abf142730848ad2e14aa3216b107c9a18cbdd8929889c037c3a3afe88a3",
+      "hash" : "36d35bce56480b49faa44e53da23e5a1f95f16a4f897088a4771338a1a3eac84",
       "name" : "GDPerformanceView",
       "container" : "GDPerformanceView.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "64827d6787b2d97c8a5f19ecd77f2516276308f892ca84089125c945244e2d59",
+      "hash" : "309533a7f76ff713c9fc5dfffd567ce0abc81111107a1491784930917350d863",
       "name" : "GDPerformanceView",
       "container" : "GDPerformanceView.xcframework",
       "identifier" : "ios-arm64_armv7"

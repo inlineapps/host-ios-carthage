@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "5ae13b5a061fed1404cb8ef571a90e772795513e971875e7aea65cea95651a55",
+      "hash" : "6fd924cfc2c3a9b17a41a5a54a6353a1db9483e84ec117b6221d64f9d276fe6e",
       "name" : "InstantMock",
       "container" : "InstantMock.xcframework",
       "identifier" : "ios-arm64"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "945adab3488a95692d0c332ff79b4fdc690680ce981dc62128709cf14b5b4cf3",
+      "hash" : "2c189256b128a2106f368806474b3fb559a2c4be8b3e6484ff92709385650492",
       "name" : "InstantMock",
       "container" : "InstantMock.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
