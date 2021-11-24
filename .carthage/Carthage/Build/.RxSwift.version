@@ -3,70 +3,70 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "05e5ddbd4a67c3b54b8971aec72a340778bd712fc281598fbde3b3a025364adf",
-      "name" : "RxBlocking",
-      "container" : "RxBlocking.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
-    },
-    {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "b8973fb92906ff6d262d0bba5ef6aef8cc7c3203555faca361783161d4885204",
+      "hash" : "00266059e42e10c2a4908058599baf6b5f35f9c3317e8c9659dad7d089795415",
       "name" : "RxBlocking",
       "container" : "RxBlocking.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "cf01b321c18cc27912c4e81ad9072c2c3fb1f04cefecbb733cbf9dc1d9eb7f4d",
+      "hash" : "bb47ab24edc392332feaf20342889cebe1e2fa440e7f6803a72acf7da4efee1b",
+      "name" : "RxBlocking",
+      "container" : "RxBlocking.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "56404914e35cf00c2a9960ed047042cd77bb4881ee1db02800d53f8c5a0eac30",
       "name" : "RxCocoa",
       "container" : "RxCocoa.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "0fb6de60f5b50d4d05e9feae0e96eb65b7c8f077e57bd004e83d59a2a5a5510e",
+      "hash" : "046cbac1b865848b86a5bd007a9535c94d1303726c10bb4f6a68b52fb52045fa",
       "name" : "RxCocoa",
       "container" : "RxCocoa.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "c714fcef4b3db10c9395d1cb683292f76a906683eb97ac2d34c40e1d56c27adf",
+      "hash" : "2806ad449a73b949c0c0997d20cf299dcaa36765f2f0c9e8ad5f218af1d618f6",
       "name" : "RxRelay",
       "container" : "RxRelay.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "b639b2cbef8f7b4d8bc35808d0827992e6c2b8538200965e4abba33dcd1351e4",
+      "hash" : "7691c62eb7ad5c36f34710339d640e07309cf9df26716defcfe1c5a9a9da2f7c",
       "name" : "RxRelay",
       "container" : "RxRelay.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "9a91f5b3fafa7444b6c219921311dde3992f030fc00a6c837890901ad980e6fb",
+      "hash" : "6e01a59091e2fd2bf0e31bd6d0f06263d4b1228fd84c8a62785be0c2d73f0ff5",
       "name" : "RxSwift",
       "container" : "RxSwift.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "e5a7e50941c3df8853a0853566f6948cbf609145e1f20851aedf21dff19633cf",
+      "hash" : "9cad2ae115cc46a7eaa9be1eece17b11e24d8f916e6f6750faf783a87612318d",
       "name" : "RxSwift",
       "container" : "RxSwift.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "f8696d68e7f49f6ede080470d677e36cd410d37f4b86f196bce95d78aa1dd207",
+      "hash" : "2ba0b3ebad54c1561cf896c43eadbee51d54fc21bf9d25647944e1e348d7bbbb",
       "name" : "RxTest",
       "container" : "RxTest.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "b47e82f9142ed2cc4cfe2d9750b1732ecd3a5e831a83eb9576f68fb5dfd3360a",
+      "hash" : "c37321b9c0895b4a293680b6216f9f696ba44b2d10e78819a1e9d402ae693022",
       "name" : "RxTest",
       "container" : "RxTest.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"

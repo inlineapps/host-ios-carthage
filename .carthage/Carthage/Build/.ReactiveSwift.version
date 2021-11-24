@@ -3,14 +3,14 @@
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "b05fa4fa13eb41ff426ac1d45fb1fd7f659d21db8e1b7e82757749da13d63c28",
+      "hash" : "1d8aac1dcf56ff841b6caf15eedeb7638d3d442daba7e0113113ac77056d7d9a",
       "name" : "ReactiveSwift",
       "container" : "ReactiveSwift.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
       "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "6e30e5acfa755ed0f3c6b16daeb4d5863ed69c5d60546742778a645464fac70b",
+      "hash" : "dbacfc28a7195373c83799e1822eff87c0539fad678215524883f269bab3b2d2",
       "name" : "ReactiveSwift",
       "container" : "ReactiveSwift.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
