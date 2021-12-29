@@ -2,15 +2,15 @@
   "commitish" : "2.5.6",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "6fd924cfc2c3a9b17a41a5a54a6353a1db9483e84ec117b6221d64f9d276fe6e",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "58316455d92ab91c542fe012da840fe5e47036a967213e873a8d8d71600b0cf2",
       "name" : "InstantMock",
       "container" : "InstantMock.xcframework",
       "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "2c189256b128a2106f368806474b3fb559a2c4be8b3e6484ff92709385650492",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "f0d9105a5fe3aa0e307f4186621094f649de32f5afdfc623eb21a3ac69fa3a2f",
       "name" : "InstantMock",
       "container" : "InstantMock.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"

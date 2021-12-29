@@ -2,29 +2,29 @@
   "commitish" : "5.0.2",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "e474aef18f6130d7a7bfa7a2c580da55142b66431f779a4230eb670babf24f6f",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "fd73167dcee9e00cda0774e86261a216424ca30844a2b567044625238ebbaad3",
       "name" : "Differentiator",
       "container" : "Differentiator.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "3f27ba7830b767e475ac5b6b1c5244ea55294254e9fe9221890d9890eb5c1266",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "5697f02470cc771d2b71c7aa32c67788831b9af781279662a23391db35f6a5b9",
       "name" : "Differentiator",
       "container" : "Differentiator.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "c1ea989035c10f8f18263987c22789c69c76693e19d0e19c1fc946c7a4eb05a2",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "009df1de0bb700485a01a459961d44ee9f11b5b99c89b00a2da7123df7c3f41d",
       "name" : "RxDataSources",
       "container" : "RxDataSources.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "3c0165c012438d1d54636a5542319a08f14e7a16815542d04367ce65aa3db4d2",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "fd515430ee2bfd0bb93eac3902d53ad14aae17873d9a834ce281c632093bf30a",
       "name" : "RxDataSources",
       "container" : "RxDataSources.xcframework",
       "identifier" : "ios-arm64_armv7"

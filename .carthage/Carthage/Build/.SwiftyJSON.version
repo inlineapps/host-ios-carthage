@@ -2,15 +2,15 @@
   "commitish" : "5.0.1",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "c5fce317938759b59332bc7794e807d5c766b67c928f8ad002f9aa41719136da",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "2aed54aba646a6629ded5612a8e33976fb11606f27b88565b8722d064daeeaf2",
       "name" : "SwiftyJSON",
       "container" : "SwiftyJSON.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "6cdc65b3159868dc92b91662f14ecb9e7c0881c97ccab4386ff3b7336d259b58",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "1d863e1d25c015dd79715d7b35223de5af6ed4edd55ea61df8887fe62c0e5965",
       "name" : "SwiftyJSON",
       "container" : "SwiftyJSON.xcframework",
       "identifier" : "ios-arm64_armv7"

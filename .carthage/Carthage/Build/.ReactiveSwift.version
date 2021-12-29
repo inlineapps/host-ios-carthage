@@ -2,15 +2,15 @@
   "commitish" : "6.7.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "1d8aac1dcf56ff841b6caf15eedeb7638d3d442daba7e0113113ac77056d7d9a",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "aee8d37f1b118d82b4ed403a1d4d4d1d9768be08d5b7a4c79ac7256b68d4a49d",
       "name" : "ReactiveSwift",
       "container" : "ReactiveSwift.xcframework",
       "identifier" : "ios-arm64_armv7"
     },
     {
-      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
-      "hash" : "dbacfc28a7195373c83799e1822eff87c0539fad678215524883f269bab3b2d2",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
+      "hash" : "82f62850cd0ad031073456b5e461ff6bf700dd2d2c9fc0eb938dfe6b136add75",
       "name" : "ReactiveSwift",
       "container" : "ReactiveSwift.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
