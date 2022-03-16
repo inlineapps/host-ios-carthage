@@ -2,15 +2,15 @@
   "commitish" : "1.25.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "a2bc0f6f93f22eeeec5d2c8df1b62fd94d395d534eb17d352a1e40c2378b1a2e",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "c0ce85e308c1f1a1576bc1e99d362ed469652d2cb8c1768a3aa15f3112d7f3ae",
       "name" : "SkeletonView",
       "container" : "SkeletonView.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "72770fa6925dff70ecc74c15298556876fbc796cfb3a132d0d03b09b3042dd8f",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "6a13372e3ba7f61ccc74ae816fe609fbd71ec3890cf1f554bde9e6d859db0aa2",
       "name" : "SkeletonView",
       "container" : "SkeletonView.xcframework",
       "identifier" : "ios-arm64_armv7"

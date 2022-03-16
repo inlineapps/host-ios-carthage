@@ -2,15 +2,15 @@
   "commitish" : "1.2.3",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "3a0c49ec6fdc646093e7c612c804dc4039445ce7637fc1d52e02593c146bc894",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "d02d1997e4b68d543c3049c301478c21aff88c1ba815a672d7931b313c9888c5",
       "name" : "SwiftEntryKit",
       "container" : "SwiftEntryKit.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "31e515be750b7af9545b30bb142f9517cfad1638ec61c7dd0645d4d4388539a7",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "cdb4e0e8eeed72940b779941a270d1049fe3d1b15caac6abd36bc7c7bed286d6",
       "name" : "SwiftEntryKit",
       "container" : "SwiftEntryKit.xcframework",
       "identifier" : "ios-arm64_armv7"

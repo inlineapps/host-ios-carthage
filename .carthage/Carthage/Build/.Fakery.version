@@ -2,15 +2,15 @@
   "commitish" : "5.1.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "a7dd66b986c5c329a75c09995380cccda8c22b6b4a0ceadf55f93c6c9b923520",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "661ceea854779bd38f12ee3a917d3244eb17d401ffde91e61efa4562b0a05c73",
       "name" : "Fakery",
       "container" : "Fakery.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "f776f88e2a60566f0932c459f0039be9a8f84816bc5b7e68d3e75982357c9d2d",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "3d10595cd9d12d2df7a97ac8a30ddcce6611879073c59935f5c76828c54acc8e",
       "name" : "Fakery",
       "container" : "Fakery.xcframework",
       "identifier" : "ios-arm64"

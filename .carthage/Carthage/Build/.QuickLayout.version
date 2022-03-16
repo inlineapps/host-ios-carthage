@@ -2,18 +2,18 @@
   "commitish" : "3.0.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "b63bc46f0574ffa5aa42a5e4281b1481ab37708bf66a073f14631e0e71b0ca8b",
-      "name" : "QuickLayout",
-      "container" : "QuickLayout.xcframework",
-      "identifier" : "ios-arm64_armv7"
-    },
-    {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "bd1f8a1c732532f29e699b5ac9766c472e0f16c783a5efb4e7d9ac067d361038",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "8dbf72b65e7973f3c5b0c28828d04548e00006e263dcf0931cf4704899adff40",
       "name" : "QuickLayout",
       "container" : "QuickLayout.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "21ee4f75f8ac4876191ef6de95bb04a59501ac55c8ba873a6d3b2571ef3b913c",
+      "name" : "QuickLayout",
+      "container" : "QuickLayout.xcframework",
+      "identifier" : "ios-arm64_armv7"
     }
   ]
 }

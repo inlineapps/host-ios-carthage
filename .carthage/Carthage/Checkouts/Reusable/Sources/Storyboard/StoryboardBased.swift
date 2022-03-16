@@ -6,6 +6,7 @@
  *
  *********************************************/
 
+#if canImport(UIKit)
 import UIKit
 
 // MARK: Protocol Definition
@@ -15,7 +16,7 @@ import UIKit
 ///  * this ViewController is the initialViewController of your Storyboard
 ///
 /// to be able to instantiate them from the Storyboard in a type-safe manner
-public protocol StoryboardBased: class {
+public protocol StoryboardBased: AnyObject {
   /// The UIStoryboard to use when we want to instantiate this ViewController
   static var sceneStoryboard: UIStoryboard { get }
 }
@@ -45,3 +46,4 @@ public extension StoryboardBased where Self: UIViewController {
     return typedViewController
   }
 }
+#endif

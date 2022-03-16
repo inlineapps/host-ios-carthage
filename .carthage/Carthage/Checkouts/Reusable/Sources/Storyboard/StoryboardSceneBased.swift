@@ -6,6 +6,7 @@
  *
  *********************************************/
 
+#if canImport(UIKit)
 import UIKit
 
 // MARK: Protocol Definition
@@ -17,7 +18,7 @@ import UIKit
 /// to be able to instantiate them from the Storyboard in a type-safe manner.
 ///
 /// You need to implement `sceneStoryboard` yourself to indicate the UIStoryboard this scene is from.
-public protocol StoryboardSceneBased: class {
+public protocol StoryboardSceneBased: AnyObject {
   /// The UIStoryboard to use when we want to instantiate this ViewController
   static var sceneStoryboard: UIStoryboard { get }
   /// The scene identifier to use when we want to instantiate this ViewController from its associated Storyboard
@@ -51,3 +52,4 @@ public extension StoryboardSceneBased where Self: UIViewController {
     return typedViewController
   }
 }
+#endif

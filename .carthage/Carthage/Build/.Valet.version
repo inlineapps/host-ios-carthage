@@ -2,15 +2,15 @@
   "commitish" : "3.2.8",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "2fcc87e27b7d3f2f3cbfbae9ced6484d776326a8071e422d7fae4f8d2ed2cbb8",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "f629c5c1c26794f113becc400c8d3d3f8f33ac77bab091fe0005946029403c8f",
       "name" : "Valet",
       "container" : "Valet.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "ba0f2e083c55afeffbddabac7fb125dee4d014191c623b37812e15e92ec38d81",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "1c8cd8d6a5833e8b56e897bbee49d3e489a4aa92bbb5a0ecf75f84c1313e6dd3",
       "name" : "Valet",
       "container" : "Valet.xcframework",
       "identifier" : "ios-arm64_armv7"

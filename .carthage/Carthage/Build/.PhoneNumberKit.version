@@ -2,15 +2,15 @@
   "commitish" : "3.3.3",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "6533d2637011b6a202408d91cc99411faf398d10550c7e518eff1b12f9f05886",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "0cd099de0aae33d4229b6dfeae59dbd646965c181bfdfb726b8fbdd9f5a5ccd8",
       "name" : "PhoneNumberKit",
       "container" : "PhoneNumberKit.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)",
-      "hash" : "6ec284730a7ab26353dda0d728ef917582abd09611732b3be173e9843171713a",
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "be60c777bc16a2bfd18254155e7d8a2690bac1b60ef3a83ec8603c8d6daaaaff",
       "name" : "PhoneNumberKit",
       "container" : "PhoneNumberKit.xcframework",
       "identifier" : "ios-arm64_armv7"

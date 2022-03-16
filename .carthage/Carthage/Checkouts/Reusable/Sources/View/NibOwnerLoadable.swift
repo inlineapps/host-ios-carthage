@@ -6,6 +6,7 @@
  *
  *********************************************/
 
+#if canImport(UIKit)
 import UIKit
 
 // MARK: Protocol Definition
@@ -15,7 +16,7 @@ import UIKit
 ///  * this class is used as the XIB's File's Owner
 ///
 /// to be able to instantiate them from the NIB in a type-safe manner
-public protocol NibOwnerLoadable: class {
+public protocol NibOwnerLoadable: AnyObject {
   /// The nib file to use to load a new instance of the View designed in a XIB
   static var nib: UINib { get }
 }
@@ -38,7 +39,7 @@ public extension NibOwnerLoadable where Self: UIView {
    */
   func loadNibContent() {
     let layoutAttributes: [NSLayoutConstraint.Attribute] = [.top, .leading, .bottom, .trailing]
-    for case let view as UIView in Self.nib.instantiate(withOwner: self, options: nil) {
+    for case let view as UIView in type(of: self).nib.instantiate(withOwner: self, options: nil) {
       view.translatesAutoresizingMaskIntoConstraints = false
       self.addSubview(view)
       NSLayoutConstraint.activate(layoutAttributes.map { attribute in
@@ -52,6 +53,7 @@ public extension NibOwnerLoadable where Self: UIView {
     }
   }
 }
+#endif
 
 /// Swift < 4.2 support
 #if !(swift(>=4.2))

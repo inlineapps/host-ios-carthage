@@ -227,11 +227,7 @@ open class AnimatedImageView: UIImageView {
     }
     
     override open func display(_ layer: CALayer) {
-        if let currentFrame = animator?.currentFrameImage {
-            layer.contents = currentFrame.cgImage
-        } else {
-            super.display(layer)
-        }
+        layer.contents = animator?.currentFrameImage?.cgImage ?? image?.cgImage
     }
     
     override open func didMoveToWindow() {
@@ -476,6 +472,7 @@ extension AnimatedImageView {
         }
         
         deinit {
+            resetAnimatedFrames()
             GraphicsContext.end()
         }
 

@@ -2,13 +2,13 @@
   "commitish" : "fc2dd8bf29b8e4edbfeb4639a98b5d87bea03e19",
   "iOS" : [
     {
-      "hash" : "aa6cd85a710c9f4f80a3cd13c078d098081911d820213b975206737786e0e0fc",
+      "hash" : "598d97d455b486b8cbf037e6ca50b831d680c79c6cc7c6506043dc933317cf6f",
       "name" : "Expecta",
       "container" : "Expecta.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "hash" : "c189eea0638bee214cf0c8ea2b14eb9919bc5c3fb2cc9dea4dbba7c6e1486401",
+      "hash" : "c8d12d04841f3fb3491feb410a71d65b631510df88b64607bf7fbb4c7dced4f1",
       "name" : "Expecta",
       "container" : "Expecta.xcframework",
       "identifier" : "ios-arm64_armv7"

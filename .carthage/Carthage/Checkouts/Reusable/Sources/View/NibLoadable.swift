@@ -6,6 +6,7 @@
  *
  *********************************************/
 
+#if canImport(UIKit)
 import UIKit
 
 // MARK: Protocol Definition
@@ -15,7 +16,7 @@ import UIKit
 ///  * this class is used as the XIB's root view
 ///
 /// to be able to instantiate them from the NIB in a type-safe manner
-public protocol NibLoadable: class {
+public protocol NibLoadable: AnyObject {
   /// The nib file to use to load a new instance of the View designed in a XIB
   static var nib: UINib { get }
 }
@@ -45,3 +46,4 @@ public extension NibLoadable where Self: UIView {
     return view
   }
 }
+#endif
