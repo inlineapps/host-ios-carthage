@@ -136,10 +136,10 @@ It's important to remember that the different HTTP methods may have different se
 Alamofire also offers an extension on `URLRequest` to bridge the `httpMethod` property that returns a `String` to an `HTTPMethod` value:
 
 ```swift
-public extension URLRequest {
+extension URLRequest {
     /// Returns the `httpMethod` as Alamofire's `HTTPMethod` type.
-    var method: HTTPMethod? {
-        get { return httpMethod.flatMap(HTTPMethod.init) }
+    public var method: HTTPMethod? {
+        get { httpMethod.flatMap(HTTPMethod.init) }
         set { httpMethod = newValue?.rawValue }
     }
 }
@@ -417,7 +417,7 @@ AF.request("https://httpbin.org/headers", headers: headers).responseDecodable(of
 }
 ```
 
-> For HTTP headers that do not change, it is recommended to set them on the `URLSessionConfiguration` so they are automatically applied to any `URLSessionTask` created by the underlying `URLSession`. For more information, see the [Session Configurations](AdvancedUsage.md#session-manager) section.
+> For HTTP headers that do not change, it is recommended to set them on the `URLSessionConfiguration` so they are automatically applied to any `URLSessionTask` created by the underlying `URLSession`. For more information, see the [Session Configurations](https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#creating-a-session-with-a-urlsessionconfiguration) section.
 
 The default Alamofire `Session` provides a default set of headers for every `Request`. These include:
 
