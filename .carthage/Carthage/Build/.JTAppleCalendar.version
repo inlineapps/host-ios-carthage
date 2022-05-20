@@ -2,15 +2,15 @@
   "commitish" : "7.1.8",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
-      "hash" : "ef3f0400c875faa1503f011e474d109b115474392647e25e9b575187a93dbb2f",
+      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
+      "hash" : "cf414ebf2fc23cc31cad444c305c61e69fd474e02594918a27e81d2ea500bad1",
       "name" : "JTAppleCalendar",
       "container" : "JTAppleCalendar.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
-      "hash" : "fdfd63775e330f9e4bb28c6942e444c05bfe38250287bbfa8c3aa69a23bda499",
+      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
+      "hash" : "f93f4a2a0b40a4c765a74876a9121ec217c280c0d75aaee9503609f301a87ec4",
       "name" : "JTAppleCalendar",
       "container" : "JTAppleCalendar.xcframework",
       "identifier" : "ios-arm64_armv7"
