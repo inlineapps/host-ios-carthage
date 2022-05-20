@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 //
 //  Package.swift
 //
@@ -43,5 +43,6 @@ let package = Package(name: "Alamofire",
                                 .testTarget(name: "AlamofireTests",
                                             dependencies: ["Alamofire"],
                                             path: "Tests",
-                                            exclude: ["Resources", "Info.plist"])],
+                                            exclude: ["Info.plist", "Test Plans"],
+                                            resources: [.process("Resources")])],
                       swiftLanguageVersions: [.v5])
