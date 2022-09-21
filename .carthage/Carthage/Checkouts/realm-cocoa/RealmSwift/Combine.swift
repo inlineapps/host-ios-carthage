@@ -16,7 +16,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////
 
-#if !(os(iOS) && (arch(i386) || arch(arm)))
+#if canImport(Combine)
 import Combine
 import Realm.Private
 
