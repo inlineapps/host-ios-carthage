@@ -2,32 +2,32 @@
   "commitish" : "5.0.2",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "f0c97ddc40f0a2d30e508427936f6a9d4fc289abdc07a16ae109e479dcfe9140",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "888f531ae498a77fd46b61ec56a9e3468cbcc00dcd8ae193ed5e42e524ac3c49",
       "name" : "Differentiator",
       "container" : "Differentiator.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "f11a2986df6401128318971008529162a6d4bc468b21c6aaecab8b703930655e",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "9fdb64a88f3a4bbe6a9b0d5cac7b51ae2ce6a04669db85780d20fd1329545e2c",
       "name" : "Differentiator",
       "container" : "Differentiator.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "88a325d2826d0d58ae9e5f96b073c82cd3fe2a2e7f6db3c4928e518d8bb879b3",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "692aded96cc3b7436858006f60d7674d5b0272778f7615aabbc72d6986a0ed1f",
       "name" : "RxDataSources",
       "container" : "RxDataSources.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "816f4bcd41c426d81539c059d60fe5749c134895dac0a64ac6be2efc744866dc",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "fb86d3e25fa385f424afa6296a2455559cf6ae9b798e03962eb5de8004a66c83",
       "name" : "RxDataSources",
       "container" : "RxDataSources.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }

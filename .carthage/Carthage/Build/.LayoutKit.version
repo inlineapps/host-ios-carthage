@@ -2,32 +2,32 @@
   "commitish" : "10.1.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "95358f2abea67ccfa594ba37eae93da18f3e089e187ecb0ddd6d532602131998",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "436ccb1d6918cbd04215b8aac43d160860518a6ef2225cb75374edc4c4c7f275",
       "name" : "ExampleLayouts",
       "container" : "ExampleLayouts.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "94e667a807f960fde3a29e6d88b681a694ffd113d2a3a6c20643008b4fe11e81",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "fd98245b5b0028ee125dcc0e34c629dd6a2e32894a010ad838caa2780ba45212",
       "name" : "ExampleLayouts",
       "container" : "ExampleLayouts.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "6ea0d32c1f9cfe9f18d901ce7ec79dc6a5cde38b1a1a7b5d8ccf9524dd6a81a4",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "ce208f4cd950165f7ea5a01400a8cffafcafba8f9948c0a8a74f8adcc5513436",
       "name" : "LayoutKit",
       "container" : "LayoutKit.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "ff516d496a58acf0728d4417a8707439028c6bd8c35d34c3c13eee055e0ee3c5",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "74338744d52fa2e2e8fb8daf9d108cb70099a8c7d779abd08bc63ccb4dfae7a9",
       "name" : "LayoutKit",
       "container" : "LayoutKit.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }
