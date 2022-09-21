@@ -1,47 +1,47 @@
 {
-  "commitish" : "15.0.0",
+  "commitish" : "15.0.3",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "9e5a2487708dde5373e34b03152a52f6e8265d5dc9541e221b9c57bf3a0a8f00",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "f021cf850f023b83bbca6d54a743dd1a3b86b0996bdf7b837d55eadfb4b01a59",
       "name" : "Moya",
       "container" : "Moya.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "b288be41810f1aa6bf64adde450601f34a5afb8fe85396b72210a4df90b33501",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "efffc658a21a412e371c37a56ad2454fd339c52775d303c0b451bfb204a928d3",
       "name" : "Moya",
       "container" : "Moya.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "c0cc7633f55895d880ab2677f52495d5ae8c526f78f90fa75d44128bdbf79b38",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "0f7a87373ed95939857961fdb31fe39dbe505d30835c733d85e56526ee2a5045",
       "name" : "ReactiveMoya",
       "container" : "ReactiveMoya.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "6e34fba9cc11144b38cebaec7d08c73065da69f3a907af15be5122c94c7203ed",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "bc7867115b7ca91878d6e09d71a24860c743311eb1b176c6234d0f335679f1f7",
       "name" : "ReactiveMoya",
       "container" : "ReactiveMoya.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "de3c92bc5d30cb54d507164bf2e680433956decc28f0b41ae812ef143efa3834",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "1b10f3330fac48d0d0dc9808afeba01fe0f575ab1bb22e867ed326bb0a8b2832",
       "name" : "RxMoya",
       "container" : "RxMoya.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "8c205ea54bba637ec3e59dbe941d9d685099c33d3b171bb60f5ebdf89db3334a",
+      "swiftToolchainVersion" : "5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)",
+      "hash" : "ca46ca6d48156f7f263efc5b017596bbfa4f52c01eeb1fee0d2753e035adc2b5",
       "name" : "RxMoya",
       "container" : "RxMoya.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }

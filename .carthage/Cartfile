@@ -1,18 +1,7 @@
 # UI
 github "SVProgressHUD/SVProgressHUD"
-github "PureLayout/PureLayout"
-github "airbnb/lottie-ios"
-github "freshOS/Stevia" == 4.7.2
-github "onevcat/Kingfisher" ~> 7.0
 github "marmelroy/PhoneNumberKit"
-github "huri000/SwiftEntryKit" == 1.2.3
-github "patchthecode/JTAppleCalendar" ~> 7.1.7
-github "AliSoftware/Reusable"
-github "pkluz/PKHUD"
-github "Juanpe/SkeletonView"
-github "apploft/GDPerformanceView-Swift" ~> 2.0.2
 github "linkedin/LayoutKit"
-github "MortimerGoro/MGSwipeTableCell"
 
 # Reactive & Promise
 github "ReactiveX/RxSwift" == 6.2.0
@@ -21,22 +10,14 @@ github "mxcl/PromiseKit" ~> 6.8
 
 # Network
 github "Moya/Moya" ~> 15.0
-github "socketio/socket.io-client-swift" == 15.1.0
 
 # Testing
 github "vadymmarkov/Fakery"
-github "Quick/Quick"
-github "Quick/Nimble"
 github "AliSoftware/OHHTTPStubs"
-github "pirishd/InstantMock" ~> 2.5.1
 
 # Testing - Objc
-github "jonreid/OCMockito" ~> 6.0
 github "specta/expecta" "master"
 github "erikdoe/ocmock"
-
-# Logging
-github "CocoaLumberjack/CocoaLumberjack" == 3.7.2
 
 # QLiEERMobileOrderSDK dependencies
 github "realm/realm-cocoa" ~> 5.5.0
