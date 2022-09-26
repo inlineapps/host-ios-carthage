@@ -20,7 +20,7 @@ github "specta/expecta" "master"
 github "erikdoe/ocmock"
 
 # QLiEERMobileOrderSDK dependencies
-github "realm/realm-cocoa" ~> 5.5.0
+github "realm/realm-swift" ~> 5.0.0
 github "tristanhimmelman/ObjectMapper" ~> 3.4
 github "Square/Valet" ~> 3.2.8
 github "QLiEER/Reachability.swift"
