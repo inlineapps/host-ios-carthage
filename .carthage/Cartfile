@@ -1,15 +1,9 @@
 # UI
 github "SVProgressHUD/SVProgressHUD"
-github "marmelroy/PhoneNumberKit"
 github "linkedin/LayoutKit"
 
-# Reactive & Promise
-github "ReactiveX/RxSwift" == 6.2.0
-github "RxSwiftCommunity/RxDataSources" ~> 5.0
+# Promise
 github "mxcl/PromiseKit" ~> 6.8
-
-# Network
-github "Moya/Moya" ~> 15.0
 
 # Testing
 github "vadymmarkov/Fakery"
@@ -18,10 +12,3 @@ github "AliSoftware/OHHTTPStubs"
 # Testing - Objc
 github "specta/expecta" "master"
 github "erikdoe/ocmock"
-
-# QLiEERMobileOrderSDK dependencies
-github "realm/realm-swift" ~> 5.0.0
-github "tristanhimmelman/ObjectMapper" ~> 3.4
-github "Square/Valet" ~> 3.2.8
-github "QLiEER/Reachability.swift"
-github "SwiftyJSON/SwiftyJSON"
