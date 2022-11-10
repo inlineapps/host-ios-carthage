@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2014-2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2014-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -22,7 +22,7 @@
 - (NSString *)stringValue;
 @end
 
-@interface TestClassForMacroTesting : NSObject <TestProtocolForMacroTesting>
+@interface TestClassForMacroTesting : NSObject<TestProtocolForMacroTesting>
 
 @end
 
@@ -38,13 +38,14 @@
 
 @interface TestClassWithDecimalReturnMethod : NSObject
 
-- (NSDecimalNumber*)method;
+- (NSDecimalNumber *)method;
 
 @end
 
 @implementation TestClassWithDecimalReturnMethod
 
-- (NSDecimalNumber*)method {
+- (NSDecimalNumber *)method
+{
     return nil;
 }
 
@@ -65,7 +66,25 @@
 
 @end
 
+@interface TestClassWithLazyMock : NSObject
 
+- (id)mock;
+
+@end
+
+@implementation TestClassWithLazyMock
+{
+    id mock;
+}
+
+- (id)mock
+{
+    if(mock == nil)
+        mock = OCMClassMock([NSString class]);
+    return mock;
+}
+
+@end
 
 // implemented in OCMockObjectClassMethodMockingTests
 
@@ -76,13 +95,12 @@
 @end
 
 
-
 @interface OCMockObjectMacroTests : XCTestCase
 {
-    BOOL        shouldCaptureFailure;
-    NSString    *reportedDescription;
-    NSString    *reportedFile;
-    NSInteger   reportedLine;
+    BOOL shouldCaptureFailure;
+    NSString *reportedDescription;
+    NSString *reportedFile;
+    NSInteger reportedLine;
 }
 
 @end
@@ -90,7 +108,7 @@
 
 @implementation OCMockObjectMacroTests
 
-#ifdef __IPHONE_14_0 // this is actually a test for Xcode 12; see issue #472
+#if defined(__IPHONE_14_0) && !defined(OCM_DISABLE_XCTEST_FEATURES) // this is actually a test for Xcode 12; see issue #472
 
 - (void)recordIssue:(XCTIssue *)issue
 {
@@ -135,7 +153,7 @@
     shouldCaptureFailure = NO;
 
     XCTAssertNotNil(reportedDescription, @"Should have recorded a failure with description.");
-    XCTAssertEqualObjects([NSString stringWithUTF8String:expectedFile], reportedFile, @"Should have reported correct file.");
+    XCTAssertTrue([reportedFile hasSuffix:[NSString stringWithUTF8String:expectedFile]], @"Should have reported correct file.");
     XCTAssertEqual(expectedLine, (int)reportedLine, @"Should have reported correct line");
 }
 
@@ -149,7 +167,7 @@
     {
         [mock lowercaseString];
     }
-    @catch (NSException *exception)
+    @catch(NSException *exception)
     {
         // ignore; the mock will rethrow this in verify
     }
@@ -159,7 +177,7 @@
     shouldCaptureFailure = NO;
 
     XCTAssertTrue([reportedDescription rangeOfString:@"ignored"].location != NSNotFound, @"Should have reported ignored exceptions.");
-    XCTAssertEqualObjects([NSString stringWithUTF8String:expectedFile], reportedFile, @"Should have reported correct file.");
+    XCTAssertTrue([reportedFile hasSuffix:[NSString stringWithUTF8String:expectedFile]], @"Should have reported correct file.");
     XCTAssertEqual(expectedLine, (int)reportedLine, @"Should have reported correct line");
 }
 
@@ -174,7 +192,7 @@
     shouldCaptureFailure = NO;
 
     XCTAssertNotNil(reportedDescription, @"Should have recorded a failure with description.");
-    XCTAssertEqualObjects([NSString stringWithUTF8String:expectedFile], reportedFile, @"Should have reported correct file.");
+    XCTAssertTrue([reportedFile hasSuffix:[NSString stringWithUTF8String:expectedFile]], @"Should have reported correct file.");
     XCTAssertEqual(expectedLine, (int)reportedLine, @"Should have reported correct line");
 }
 
@@ -245,10 +263,10 @@
 
     NSNotification *n = [NSNotification notificationWithName:@"TestNotification" object:nil];
 
-    #pragma clang diagnostic push
-    #pragma clang diagnostic ignored "-Wdeprecated-declarations"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     id observer = OCMObserverMock();
-    #pragma clang diagnostic pop
+#pragma clang diagnostic pop
     [[NSNotificationCenter defaultCenter] addMockObserver:observer name:[n name] object:nil];
     OCMExpect([observer notificationWithName:[n name] object:[OCMArg any]]);
 
@@ -261,14 +279,14 @@
 
 - (void)testNotificationObservingWithUserInfo
 {
-    #pragma clang diagnostic push
-    #pragma clang diagnostic ignored "-Wdeprecated-declarations"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     id observer = OCMObserverMock();
-    #pragma clang diagnostic pop
+#pragma clang diagnostic pop
     [[NSNotificationCenter defaultCenter] addMockObserver:observer name:@"TestNotificationWithInfo" object:nil];
     OCMExpect([observer notificationWithName:@"TestNotificationWithInfo" object:[OCMArg any] userInfo:[OCMArg any]]);
 
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"TestNotificationWithInfo" object:self userInfo:@{ @"foo": @"bar" }];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"TestNotificationWithInfo" object:self userInfo:@{ @"foo" : @"bar" }];
 
     OCMVerifyAll(observer);
 }
@@ -288,6 +306,8 @@
     return @"TEST_STRING_FROM_TESTCASE";
 }
 
+#ifndef OCM_DISABLE_XCTEST_FEATURES
+
 - (void)testFulfillsExpectation
 {
     id mock = OCMStrictClassMock([NSString class]);
@@ -298,13 +318,14 @@
     [self waitForExpectationsWithTimeout:0 handler:nil];
 }
 
+#endif
+
 - (void)testCanChainPropertyBasedActions
 {
     id mock = OCMPartialMock([[TestClassForMacroTesting alloc] init]);
 
     __block BOOL didCallBlock = NO;
-    void (^theBlock)(NSInvocation *) = ^(NSInvocation *invocation)
-    {
+    void (^theBlock)(NSInvocation *) = ^(NSInvocation *invocation) {
         didCallBlock = YES;
     };
 
@@ -382,7 +403,7 @@
     shouldCaptureFailure = NO;
 
     XCTAssertNotNil(reportedDescription, @"Should have recorded a failure with description.");
-    XCTAssertEqualObjects([NSString stringWithUTF8String:expectedFile], reportedFile, @"Should have reported correct file.");
+    XCTAssertTrue([reportedFile hasSuffix:[NSString stringWithUTF8String:expectedFile]], @"Should have reported correct file.");
     XCTAssertEqual(expectedLine, (int)reportedLine, @"Should have reported correct line");
 }
 
@@ -414,7 +435,7 @@
         id realObject = [NSMutableArray array];
         OCMStub([realObject addObject:@"foo"]);
     }
-    @catch (NSException *e)
+    @catch(NSException *e)
     {
         XCTAssertTrue([[e reason] containsString:@"The receiver is not a mock object."]);
     }
@@ -437,7 +458,7 @@
         id mock = OCMClassMock([NSString class]);
         OCMStub([mock description]);
     }
-    @catch (NSException *e)
+    @catch(NSException *e)
     {
         XCTAssertTrue([[e reason] containsString:@"The selector conflicts with a selector implemented by OCMStubRecorder/OCMExpectationRecorder."]);
     }
@@ -450,7 +471,7 @@
         id mock = OCMClassMock([NSString class]);
         OCMVerify([mock description]);
     }
-    @catch (NSException *e)
+    @catch(NSException *e)
     {
         XCTAssertTrue([[e reason] containsString:@"The selector conflicts with a selector implemented by OCMVerifier."]);
     }
@@ -559,7 +580,9 @@
     OCMStub([[mock andThrow:nil] initWithString:OCMOCK_ANY]);
     OCMStub([[mock andPost:nil] initWithString:OCMOCK_ANY]);
     OCMStub([[mock andCall:nil onObject:nil] initWithString:OCMOCK_ANY]);
+#ifndef OCM_DISABLE_XCTEST_FEATURES
     OCMStub([[mock andFulfill:nil] initWithString:OCMOCK_ANY]);
+#endif
     OCMStub([[mock andDo:nil] initWithString:OCMOCK_ANY]);
     OCMStub([[mock andForwardToRealObject] initWithString:OCMOCK_ANY]);
     OCMExpect([[mock never] initWithString:OCMOCK_ANY]);
@@ -617,6 +640,12 @@
         XCTAssertEqualObjects(exception.name, NSInternalInconsistencyException);
         XCTAssertTrue([exception.reason containsString:@"Method init invoked twice on verifier"]);
     }
+}
+
+- (void)testMockGeneratedLazily
+{
+    TestClassWithLazyMock *lazyMock = [[TestClassWithLazyMock alloc] init];
+    XCTAssertNoThrow(OCMStub([[lazyMock mock] lowercaseString]).andReturn(@"bar"));
 }
 
 @end

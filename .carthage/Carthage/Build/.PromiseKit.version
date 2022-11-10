@@ -1,16 +1,16 @@
 {
-  "commitish" : "6.17.0",
+  "commitish" : "6.18.1",
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
-      "hash" : "190b78c4cab642aeacd5c3fb22cb6adc217033dec515352c5d6a8af019b105fa",
+      "hash" : "b17e3d7b419df30a5c10bc172348331c19a92dcc3503c7a3d31256a168ad6daa",
       "name" : "PromiseKit",
       "container" : "PromiseKit.xcframework",
       "identifier" : "ios-arm64"
     },
     {
       "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
-      "hash" : "964c38cb2ce2c59f57af8f05e3e6643970c1963bcc6b191dd496a9944e479c9a",
+      "hash" : "39b0387221f56a59c9479f7e2e2bbf9277417847e8d9c98c3605eddc41937aba",
       "name" : "PromiseKit",
       "container" : "PromiseKit.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"

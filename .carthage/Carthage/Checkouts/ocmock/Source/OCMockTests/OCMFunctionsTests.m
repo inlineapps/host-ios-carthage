@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2020-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -14,9 +14,9 @@
  *  under the License.
  */
 
-#import <objc/runtime.h>
-#import <XCTest/XCTest.h>
 #import <OCMock/OCMockObject.h>
+#import <XCTest/XCTest.h>
+#import <objc/runtime.h>
 #import "OCMFunctions.h"
 #import "OCMFunctionsPrivate.h"
 
@@ -30,6 +30,10 @@
 {
 }
 
+- (void)methodWithByRef:(byref id)foo
+{
+}
+
 @end
 
 
@@ -37,6 +41,22 @@
 @end
 
 @implementation OCMFunctionsTests
+
+- (void)testObjCTypeWithoutQualifiersCorrectsHandlingOfByRefArgType
+{
+    Method method = class_getInstanceMethod([TestClassForFunctions class], @selector(methodWithByRef:));
+    char *argType = method_copyArgumentType(method, 2);
+    XCTAssertNotEqual(argType, NULL);
+
+    // First confirm that the suspected bug is still present
+    XCTAssertNotEqualObjects(@"@", [NSString stringWithUTF8String:argType]);
+
+    // Now test that the OCMock function returns the correct type anyway
+    const char *actual = OCMTypeWithoutQualifiers(argType);
+    XCTAssertEqualObjects(@"@", [NSString stringWithUTF8String:actual]);
+
+    free(argType);
+}
 
 - (void)testIsBlockReturnsFalseForClass
 {
@@ -55,7 +75,7 @@
 
 - (void)testIsBlockReturnsTrueForBlock
 {
-    XCTAssertTrue(OCMIsBlock(^{}));
+    XCTAssertTrue(OCMIsBlock(^ { }));
 }
 
 - (void)testIsMockSubclassOnlyReturnYesForActualSubclass

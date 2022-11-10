@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2004-2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2004-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -14,8 +14,8 @@
  *  under the License.
  */
 
-#import <XCTest/XCTest.h>
 #import <OCHamcrest/OCHamcrest.h>
+#import <XCTest/XCTest.h>
 #import "OCMock.h"
 
 
@@ -28,17 +28,17 @@
 
 - (void)testAcceptsStubbedMethodWithHamcrestConstraint
 {
-	id mock = [OCMockObject mockForClass:[NSString class]];
-	[[mock stub] hasSuffix:(id)startsWith(@"foo")];
-	[mock hasSuffix:@"foobar"];
+    id mock = [OCMockObject mockForClass:[NSString class]];
+    [[mock stub] hasSuffix:(id)startsWith(@"foo")];
+    [mock hasSuffix:@"foobar"];
 }
 
 
 - (void)testRejectsUnstubbedMethodWithHamcrestConstraint
 {
-	id mock = [OCMockObject mockForClass:[NSString class]];
-	[[mock stub] hasSuffix:(id)anyOf(equalTo(@"foo"), equalTo(@"bar"), NULL)];
-	XCTAssertThrows([mock hasSuffix:@"foobar"], @"Should have raised an exception.");
+    id mock = [OCMockObject mockForClass:[NSString class]];
+    [[mock stub] hasSuffix:(id)anyOf(equalTo(@"foo"), equalTo(@"bar"), NULL)];
+    XCTAssertThrows([mock hasSuffix:@"foobar"], @"Should have raised an exception.");
 }
 
 

@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2015-2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2015-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -14,8 +14,8 @@
  *  under the License.
  */
 
-#import <stdatomic.h>
 #import <libkern/OSAtomic.h>
+#import <stdatomic.h>
 #import "TestClassWithCustomReferenceCounting.h"
 
 
@@ -50,7 +50,7 @@
 #else
     int32_t newRetainCount = OSAtomicDecrement32(&retainCount);
 #endif
-    if (newRetainCount == -1)
+    if(newRetainCount == -1)
         [self dealloc];
 }
 

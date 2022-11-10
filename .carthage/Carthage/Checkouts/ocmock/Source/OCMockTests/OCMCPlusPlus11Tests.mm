@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2020-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -33,13 +33,13 @@
 
 - (void)testSetsUpStubReturningNilForIdReturnType
 {
-	id mock = OCMPartialMock([NSArray arrayWithObject:@"Foo"]);
+    id mock = OCMPartialMock([NSArray arrayWithObject:@"Foo"]);
 
-	OCMExpect([mock lastObject]).andReturn(nil);
-	XCTAssertNil([mock lastObject], @"Should have returned stubbed value");
+    OCMExpect([mock lastObject]).andReturn(nil);
+    XCTAssertNil([mock lastObject], @"Should have returned stubbed value");
 
-	OCMExpect([mock lastObject]).andReturn(Nil);
-	XCTAssertNil([mock lastObject], @"Should have returned stubbed value");
+    OCMExpect([mock lastObject]).andReturn(Nil);
+    XCTAssertNil([mock lastObject], @"Should have returned stubbed value");
 }
 
 @end

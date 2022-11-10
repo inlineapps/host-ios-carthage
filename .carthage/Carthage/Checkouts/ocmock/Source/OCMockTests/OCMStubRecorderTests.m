@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2004-2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2004-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -15,10 +15,10 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "OCMock.h"
-#import "OCMObjectReturnValueProvider.h"
 #import "OCMExceptionReturnValueProvider.h"
 #import "OCMInvocationStub.h"
+#import "OCMObjectReturnValueProvider.h"
+#import "OCMock.h"
 
 
 @interface OCMStubRecorderTests : XCTestCase
@@ -63,7 +63,6 @@
 
     XCTAssertEqual((NSUInteger)1, [actionList count], @"Should have added one action.");
     XCTAssertEqualObjects([OCMExceptionReturnValueProvider class], [[actionList objectAtIndex:0] class], @"Should have added correct action.");
-
 }
 
 @end
