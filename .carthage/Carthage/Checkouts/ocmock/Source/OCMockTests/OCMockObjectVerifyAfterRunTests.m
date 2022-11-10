@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2014-2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2014-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -34,7 +34,7 @@
 
 - (NSString *)method2
 {
-	return @"Foo";
+    return @"Foo";
 }
 
 @end
@@ -49,8 +49,8 @@
 
 - (NSString *)method1
 {
-	id retVal = [self method2];
-	return retVal;
+    id retVal = [self method2];
+    return retVal;
 }
 
 @end
@@ -95,7 +95,7 @@
     TestClassForVerifyAfterRun *testObject = [[TestClassForVerifyAfterRun alloc] init];
     id mock = [OCMockObject partialMockForObject:testObject];
 
-    NSString *string =  [testObject method1];
+    NSString *string = [testObject method1];
 
     XCTAssertEqualObjects(@"Foo", string, @"Should have returned value from actual implementation.");
     XCTAssertNoThrow([[mock verify] method2], @"Should not have thrown an exception for method that was called.");

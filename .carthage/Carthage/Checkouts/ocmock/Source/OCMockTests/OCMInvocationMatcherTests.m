@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2014-2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2014-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -15,9 +15,9 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "OCMock.h"
-#import "OCMInvocationMatcher.h"
 #import "OCMFunctionsPrivate.h"
+#import "OCMInvocationMatcher.h"
+#import "OCMock.h"
 
 
 @interface TestClassForRecorder : NSObject
@@ -80,7 +80,7 @@
     XCTAssertFalse([matcher matchesInvocation:testInvocation], @"Should not match.");
 }
 
--(void)testSelectivelyIgnoresNonObjectArguments
+- (void)testSelectivelyIgnoresNonObjectArguments
 {
     id any = [OCMArg any];
     NSUInteger zero = 0;
@@ -100,7 +100,7 @@
     XCTAssertTrue([matcher matchesInvocation:testInvocation], @"Should match.");
 }
 
--(void)testSelectivelyIgnoresNonObjectArgumentsAndStillFailsWhenFollowingObjectArgsDontMatch
+- (void)testSelectivelyIgnoresNonObjectArgumentsAndStillFailsWhenFollowingObjectArgsDontMatch
 {
     int arg1 = 17;
     NSString *recorded = @"recorded";

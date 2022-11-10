@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2016-2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2016-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -35,8 +35,8 @@
 
 @interface OCMQuantifierTests : XCTestCase
 {
-    BOOL    expectFailure;
-    BOOL    didRecordFailure;
+    BOOL expectFailure;
+    BOOL didRecordFailure;
 }
 
 @end
@@ -49,7 +49,7 @@
     expectFailure = NO;
 }
 
-#ifdef __IPHONE_14_0 // this is actually a test for Xcode 12; see issue #472
+#if defined(__IPHONE_14_0) && !defined(OCM_DISABLE_XCTEST_FEATURES) // this is actually a test for Xcode 12; see issue #472
 
 - (void)recordIssue:(XCTIssue *)issue
 {
@@ -114,30 +114,30 @@
 - (void)testAtLeastThrowsWhenMinimumCountIsNotReached
 {
     id mock = OCMClassMock([TestClassForQuantifiers class]);
-    
+
     [mock doStuff];
-    
+
     XCTAssertThrows([[[mock verify] withQuantifier:[OCMQuantifier atLeast:2]] doStuff]);
 }
 
 - (void)testAtLeastMatchesMinimumCount
 {
     id mock = OCMClassMock([TestClassForQuantifiers class]);
-    
+
     [mock doStuff];
     [mock doStuff];
-    
+
     [[[mock verify] withQuantifier:[OCMQuantifier atLeast:2]] doStuff];
 }
 
 - (void)testAtLeastMatchesMoreThanMinimumCount
 {
     id mock = OCMClassMock([TestClassForQuantifiers class]);
-    
+
     [mock doStuff];
     [mock doStuff];
     [mock doStuff];
-    
+
     [[[mock verify] withQuantifier:[OCMQuantifier atLeast:2]] doStuff];
 }
 
@@ -150,7 +150,7 @@
 - (void)testAtMostMatchesUpToMaximumCount
 {
     id mock = OCMClassMock([TestClassForQuantifiers class]);
-    
+
     [mock doStuff];
 
     [[[mock verify] withQuantifier:[OCMQuantifier atMost:1]] doStuff];
@@ -159,10 +159,10 @@
 - (void)testAtMostThrowsWhenMaximumCountIsExceeded
 {
     id mock = OCMClassMock([TestClassForQuantifiers class]);
-    
+
     [mock doStuff];
     [mock doStuff];
-    
+
     XCTAssertThrows([[[mock verify] withQuantifier:[OCMQuantifier atMost:1]] doStuff]);
 }
 
@@ -175,7 +175,7 @@
 - (void)testNeverThrowsWhenInvocationsOccurred
 {
     id mock = OCMClassMock([TestClassForQuantifiers class]);
-    
+
     [mock doStuff];
 
     XCTAssertThrows([[[mock verify] withQuantifier:[OCMQuantifier never]] doStuff]);
@@ -187,17 +187,16 @@
     id mock = OCMClassMock([TestClassForQuantifiers class]);
     [mock doStuff];
     [mock doStuff];
-    OCMVerify(atLeast(2), [mock doStuff]);
+    OCMVerify(OCMAtLeast(2), [mock doStuff]);
 }
 
 - (void)testQuantifierMacroFailure
 {
     id mock = OCMClassMock([TestClassForQuantifiers class]);
     expectFailure = YES;
-    OCMVerify(atLeast(1), [mock doStuff]);
+    OCMVerify(OCMAtLeast(1), [mock doStuff]);
     expectFailure = NO;
     XCTAssertTrue(didRecordFailure);
 }
 
 @end
-

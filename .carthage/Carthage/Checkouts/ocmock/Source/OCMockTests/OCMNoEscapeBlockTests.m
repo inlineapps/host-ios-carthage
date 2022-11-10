@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2020 Erik Doernenburg and contributors
+ *  Copyright (c) 2020-2021 Erik Doernenburg and contributors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use these files except in compliance with the License. You may obtain
@@ -15,14 +15,14 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "OCMock.h"
 #import "OCMFunctionsPrivate.h"
+#import "OCMock.h"
 
 
-@interface NSString(NoEscapeBlock)
+@interface NSString (NoEscapeBlock)
 @end
 
-@implementation NSString(NoEscapeBlock)
+@implementation NSString (NoEscapeBlock)
 
 - (void)methodWithNoEscapeBlock:(void(NS_NOESCAPE ^)(void))block
 {
