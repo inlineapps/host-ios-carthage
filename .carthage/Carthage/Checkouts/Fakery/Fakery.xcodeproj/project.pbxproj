@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,10 +31,6 @@
 		20580DE22283222C00D46446 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20580DE02283222C00D46446 /* Cat.swift */; };
 		20580DE32283222C00D46446 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20580DE02283222C00D46446 /* Cat.swift */; };
 		2A17AB0A1E4E45A600011BC6 /* tr-TR.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A17AB091E4E45A600011BC6 /* tr-TR.json */; };
-		4771F53B25643832004ABB7A /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 4771F53A25643832004ABB7A /* Quick */; };
-		4771F541256438DE004ABB7A /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 4771F540256438DE004ABB7A /* Nimble */; };
-		4771F54C2564391B004ABB7A /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 4771F54B2564391B004ABB7A /* Quick */; };
-		4771F54E2564391B004ABB7A /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 4771F54D2564391B004ABB7A /* Nimble */; };
 		504F66E022AE32CB00F9CDB3 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F66DF22AE32CB00F9CDB3 /* House.swift */; };
 		504F66E122AE32CB00F9CDB3 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F66DF22AE32CB00F9CDB3 /* House.swift */; };
 		504F66E222AE32CB00F9CDB3 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F66DF22AE32CB00F9CDB3 /* House.swift */; };
@@ -383,8 +379,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC827FB21BFA3CE1005F09A4 /* Fakery.framework in Frameworks */,
-				4771F54E2564391B004ABB7A /* Nimble in Frameworks */,
-				4771F54C2564391B004ABB7A /* Quick in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,8 +394,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF0DF451BF9F77E00427DB4 /* Fakery.framework in Frameworks */,
-				4771F541256438DE004ABB7A /* Nimble in Frameworks */,
-				4771F53B25643832004ABB7A /* Quick in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,8 +675,6 @@
 			);
 			name = "Fakery-macOS-Tests";
 			packageProductDependencies = (
-				4771F54B2564391B004ABB7A /* Quick */,
-				4771F54D2564391B004ABB7A /* Nimble */,
 			);
 			productName = "Fakery OSXTests";
 			productReference = BC827FB11BFA3CE1005F09A4 /* Fakery-macOS-Tests.xctest */;
@@ -725,8 +715,6 @@
 			);
 			name = "Fakery-iOS-Tests";
 			packageProductDependencies = (
-				4771F53A25643832004ABB7A /* Quick */,
-				4771F540256438DE004ABB7A /* Nimble */,
 			);
 			productName = FakeryTests;
 			productReference = BCF0DF441BF9F77E00427DB4 /* Fakery-iOS-Tests.xctest */;
@@ -793,8 +781,6 @@
 			);
 			mainGroup = BCF0DF301BF9F77E00427DB4;
 			packageReferences = (
-				4771F53925643832004ABB7A /* XCRemoteSwiftPackageReference "Quick" */,
-				4771F53F256438DE004ABB7A /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = BCF0DF3B1BF9F77E00427DB4 /* Products */;
 			projectDirPath = "";
@@ -1177,11 +1163,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-macOS";
 				PRODUCT_NAME = Fakery;
@@ -1205,11 +1187,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-macOS";
 				PRODUCT_NAME = Fakery;
@@ -1226,11 +1204,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-Mac.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1246,11 +1220,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-Mac.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1366,8 +1336,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1386,11 +1355,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery";
 				PRODUCT_NAME = Fakery;
 				SKIP_INSTALL = YES;
@@ -1410,11 +1375,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery";
 				PRODUCT_NAME = Fakery;
 				SKIP_INSTALL = YES;
@@ -1427,11 +1388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-iOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.FakeryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -1443,11 +1400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-iOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.FakeryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -1467,11 +1420,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.Fakery-tvOS";
 				PRODUCT_NAME = Fakery;
 				SDKROOT = appletvos;
@@ -1495,11 +1444,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.Fakery-tvOS";
 				PRODUCT_NAME = Fakery;
 				SDKROOT = appletvos;
@@ -1569,48 +1514,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4771F53925643832004ABB7A /* XCRemoteSwiftPackageReference "Quick" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Quick.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.1.2;
-			};
-		};
-		4771F53F256438DE004ABB7A /* XCRemoteSwiftPackageReference "Nimble" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Nimble.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4771F53A25643832004ABB7A /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4771F53925643832004ABB7A /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		4771F540256438DE004ABB7A /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4771F53F256438DE004ABB7A /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-		4771F54B2564391B004ABB7A /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4771F53925643832004ABB7A /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		4771F54D2564391B004ABB7A /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4771F53F256438DE004ABB7A /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCF0DF311BF9F77E00427DB4 /* Project object */;
 }
