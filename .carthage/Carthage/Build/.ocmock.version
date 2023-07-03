@@ -8,7 +8,7 @@
       "identifier" : "ios-arm64"
     },
     {
-      "hash" : "8c2d5fd29406e3ff4cd41bb0b1ec6a18992cc2e94bc5236d3214c9261c5602ff",
+      "hash" : "01fdaa4da590b6c61ade59506c6e04ccab398a1c54e6f65c3558e83364260dc5",
       "name" : "OCHamcrest",
       "container" : "OCHamcrest.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
@@ -20,7 +20,7 @@
       "identifier" : "ios-arm64"
     },
     {
-      "hash" : "4b43f7aa41bdc0fb832c0303fd95ec59466179378f39ff37a616bbb5c75aea23",
+      "hash" : "57c7a88a354e83e8227e6bb770f7d6d4a59c859fa2488efde6da137fc1499a61",
       "name" : "OCMock",
       "container" : "OCMock.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"

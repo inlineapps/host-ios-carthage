@@ -8,7 +8,7 @@
       "identifier" : "ios-arm64"
     },
     {
-      "hash" : "4c6c6f459fccc4da135d7a9c7b2c997ecd648c598f4dadf10224a3513e798abb",
+      "hash" : "3ebbfcc1584ddcce49b07b081e15d031c2fa7e7f84c8fdb571447f11390208ed",
       "name" : "SVProgressHUD",
       "container" : "SVProgressHUD.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
