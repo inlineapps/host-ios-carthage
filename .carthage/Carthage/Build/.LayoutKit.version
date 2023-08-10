@@ -2,29 +2,29 @@
   "commitish" : "10.1.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
-      "hash" : "0597cb92693ae50c3bd16f9265ff46163504fdf0e19eced7199c561307a60276",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.2 clang-1500.0.40.1)",
+      "hash" : "1d5cf57ee4f9aa6a063411ff2eecbef217b09683448442d69fc4a36d876b99a3",
       "name" : "ExampleLayouts",
       "container" : "ExampleLayouts.xcframework",
       "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
-      "hash" : "d728c2a18a0cb491046685e7b40d7b6f48929ad079ed9f2e0f98920d2a3364fd",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.2 clang-1500.0.40.1)",
+      "hash" : "f3e24f175063877d2043f66b82fb8c2e19da70ea2b097a4f7203b27ce905ca82",
       "name" : "ExampleLayouts",
       "container" : "ExampleLayouts.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
-      "hash" : "e61c8a604b7a5330444627304658a56a96150fe31f80149869cbb183ead87763",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.2 clang-1500.0.40.1)",
+      "hash" : "6386f41c24743395f54cb44f5dee00dfcafe58d3b0c3f269d54cd358180b1d5c",
       "name" : "LayoutKit",
       "container" : "LayoutKit.xcframework",
       "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
-      "hash" : "0c5b70d64fb6d47fee1591d02f5666355bceaba1d67296c9afff3cf808d90620",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.2 clang-1500.0.40.1)",
+      "hash" : "2551c2cd5a5ba064305eb43edfc98bf297fdff35089f20135421eea221bc99e1",
       "name" : "LayoutKit",
       "container" : "LayoutKit.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
