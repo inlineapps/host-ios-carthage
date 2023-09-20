@@ -2,15 +2,15 @@
   "commitish" : "9.1.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.106 clang-1500.0.40.1)",
-      "hash" : "36b61db1e029155f1373c7fc1824bdad3ec995782e33112da0ab715451106fcc",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "64f99f20ea764ce57bf6e17dd07c3dd159060e4a272aa50ae846461a07f703fa",
       "name" : "OHHTTPStubs",
       "container" : "OHHTTPStubs.xcframework",
       "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.106 clang-1500.0.40.1)",
-      "hash" : "f3abbf47c8c7e478055a90086731d04c267ee7e830a60dd8f9761810aa024c45",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
+      "hash" : "b47adb150c04a15bdb81801225fef251224b1620a32e95669b1bee64ab778bf8",
       "name" : "OHHTTPStubs",
       "container" : "OHHTTPStubs.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
