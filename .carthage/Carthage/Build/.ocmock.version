@@ -2,25 +2,25 @@
   "commitish" : "v3.9.1",
   "iOS" : [
     {
-      "hash" : "178ec5e57716ca42f181e9c61cd4caf2179ae7ee3a6f4be03692a91c59d8c8b8",
+      "hash" : "6ebb4709ec4d1d83fad9f77bf14e6a2dc2ae56c11a950b1c12fead16fb0c8ab7",
       "name" : "OCHamcrest",
       "container" : "OCHamcrest.xcframework",
       "identifier" : "ios-arm64"
     },
     {
-      "hash" : "01fdaa4da590b6c61ade59506c6e04ccab398a1c54e6f65c3558e83364260dc5",
+      "hash" : "5913a92ec3af7482db8b14bb970f7b01aed5db39379ba97764f12beb125a18da",
       "name" : "OCHamcrest",
       "container" : "OCHamcrest.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "hash" : "396d805535d874729357ddc8c35946fdfb15d546481ac983c69507639c74a114",
+      "hash" : "536091847e90699ff454ce80183a56dcb41cccd55cdd18c565b7fe053d765d34",
       "name" : "OCMock",
       "container" : "OCMock.xcframework",
       "identifier" : "ios-arm64"
     },
     {
-      "hash" : "57c7a88a354e83e8227e6bb770f7d6d4a59c859fa2488efde6da137fc1499a61",
+      "hash" : "bc08bcbeb4ef2045e823bf41d0119e61beb39dbf8cf8efd61c6bd24fffc4eeef",
       "name" : "OCMock",
       "container" : "OCMock.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
