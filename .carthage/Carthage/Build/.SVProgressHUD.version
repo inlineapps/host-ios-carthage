@@ -2,16 +2,16 @@
   "commitish" : "2.2.5",
   "iOS" : [
     {
-      "hash" : "e7b9077e2237358fa3cff712a76c4b82826d7c4a03bd1eb7dc8ca5b52a56d49a",
-      "name" : "SVProgressHUD",
+      "identifier" : "ios-arm64",
+      "hash" : "7beb6523be6e709758c3b2493497a97e5dedf9c95565bdc160d864a33051e6a7",
       "container" : "SVProgressHUD.xcframework",
-      "identifier" : "ios-arm64"
+      "name" : "SVProgressHUD"
     },
     {
-      "hash" : "e49e12b4d6b968545c77c821269503609098c61383fe521c73f745f38d8f83b0",
       "name" : "SVProgressHUD",
-      "container" : "SVProgressHUD.xcframework",
-      "identifier" : "ios-arm64_x86_64-simulator"
+      "hash" : "7783ce8eda7d2163ada5eb06c4332fb4d0043f556f827681b3caf808d8df66c2",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "container" : "SVProgressHUD.xcframework"
     }
   ]
 }
