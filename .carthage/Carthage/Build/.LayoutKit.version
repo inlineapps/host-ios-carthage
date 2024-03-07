@@ -2,32 +2,32 @@
   "commitish" : "10.1.0",
   "iOS" : [
     {
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
-      "hash" : "2dff146007bb440188ded60cceeced8d034e0706a430cd806410a3c803611da1",
+      "hash" : "ba037b170fc4e626f76562e3a002dfd23985e8b86471f8b335749acc2673c6f5",
+      "swiftToolchainVersion" : "5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)",
       "name" : "ExampleLayouts",
-      "container" : "ExampleLayouts.xcframework",
-      "identifier" : "ios-arm64"
+      "identifier" : "ios-arm64",
+      "container" : "ExampleLayouts.xcframework"
     },
     {
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
-      "hash" : "4564ed28105d01e8ac5ae470df33e11fe728da795cc25452e885343f523769b1",
-      "name" : "ExampleLayouts",
       "container" : "ExampleLayouts.xcframework",
-      "identifier" : "ios-arm64_x86_64-simulator"
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "39056cb0c3270860d6b6cd8c56ae558125b35ae5a9b3185824034dd0295c50e1",
+      "name" : "ExampleLayouts",
+      "swiftToolchainVersion" : "5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
     },
     {
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
-      "hash" : "92a430409dd773973960d29f45fd36b47b6a6c352b30e47508d877138b3fc760",
       "name" : "LayoutKit",
       "container" : "LayoutKit.xcframework",
-      "identifier" : "ios-arm64"
+      "identifier" : "ios-arm64",
+      "hash" : "647b7ceaa7b00b39177d4fa6f73ff91b25bc663c87a290e5c31332975d078b37",
+      "swiftToolchainVersion" : "5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
     },
     {
-      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)",
-      "hash" : "bc82ed8caced9d3bc934494a02ddd2266c6381a70e7875f5e4d1f7e660937a61",
-      "name" : "LayoutKit",
+      "hash" : "c8c7ffc00700be41ae4e8a49274fe2bb62c2e5b7dd9208cda7f82bd55e91945c",
       "container" : "LayoutKit.xcframework",
-      "identifier" : "ios-arm64_x86_64-simulator"
+      "swiftToolchainVersion" : "5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "LayoutKit"
     }
   ]
 }
