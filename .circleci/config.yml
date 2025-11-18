@@ -1,0 +1,30 @@
+version: 2.1
+executors:
+  mac:
+    macos:
+      xcode: 26.1.1
+    resource_class: m4pro.medium
+    working_directory: ~/project
+    environment:
+      CI_TYPE: circle_ci
+
+commands:
+  install-tools:
+    steps:
+      - run:
+          name: Install Carthage & jq
+          command: |
+            brew update
+            brew install carthage jq
+
+jobs:
+  build:
+    executor: mac
+    steps:
+      - checkout
+      - install-tools
+      
+workflows:
+  commit:
+    jobs:
+      - build
