@@ -17,12 +17,20 @@ commands:
             brew update
             brew install carthage jq
 
+  build-carthage:
+    steps:
+      - run:
+          name: Build Carthage
+          command: |
+            carthage bootstrap --use-xcframeworks --platform iOS --no-use-binaries --cache-builds
+
 jobs:
   build:
     executor: mac
     steps:
       - checkout
       - install-tools
+      - build-carthage
       
 workflows:
   commit:
