@@ -75,7 +75,7 @@ jobs:
           command: |
             gh release create "$TAG" \
               --title "$TAG" \
-              --notes "Automated release" || true
+              --notes "Support Xcode $VERSION" || true
 
       # 4. Upload assets (XCFrameworks)
       - run:
