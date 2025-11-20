@@ -65,6 +65,26 @@ jobs:
               zip -r "${f}.zip" "$f"
             done
 
+      - run:
+          name: Compute checksums for all XCFramework zips
+          command: |
+            echo "Generating checksums…"
+
+            CHECKSUM_NOTE=""
+
+            for FILE in output/*.zip; do
+              NAME=$(basename "$FILE")
+              SUM=$(swift package compute-checksum "$FILE")
+              echo "$NAME checksum: $SUM"
+
+              CHECKSUM_NOTE="${CHECKSUM_NOTE}${NAME}: ${SUM}\n"
+            done
+
+            echo -e "$CHECKSUM_NOTE"
+
+            # Export for next steps
+            echo "export CHECKSUM_NOTE=$(printf '%q' "$CHECKSUM_NOTE")" >> $BASH_ENV
+            
       # Install GitHub CLI
       - gh/install:
           version: latest
@@ -75,7 +95,7 @@ jobs:
           command: |
             gh release create "$TAG" \
               --title "$TAG" \
-              --notes "Support Xcode $VERSION" || true
+              --notes "$(printf "Support Xcode $VERSION\n\nChecksums:\n$CHECKSUM_NOTE")" || true
 
       # 4. Upload assets (XCFrameworks)
       - run:
