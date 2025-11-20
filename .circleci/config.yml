@@ -1,0 +1,95 @@
+version: 2.1
+
+orbs:
+  gh: circleci/github-cli@2
+
+jobs:
+  build-and-publish:
+    macos:
+      xcode: "26.1.1"
+    resource_class: m4pro.medium
+    working_directory: ~/project
+    environment:
+      REPO_FULL_NAME: "inlineapps/host-ios-carthage"
+
+    steps:
+      - checkout
+
+      # 1. Read version from VERSION file
+      - run:
+          name: Read version from VERSION file
+          command: |
+            VERSION=$(cat VERSION)
+            TAG="v$VERSION"
+            echo "Using TAG: $TAG"
+            echo "export TAG=$TAG" >> $BASH_ENV
+
+      # 2. Create and push git tag (local → remote)
+      - run:
+          name: Create and push tag
+          command: |
+            git config user.email "ci@circleci.com"
+            git config user.name "CircleCI"
+
+            # ignore if tag exist
+            if git ls-remote --tags origin | grep -q "refs/tags/$TAG"; then
+              echo "Tag $TAG already exists on remote."
+            else
+              echo "Creating and pushing tag $TAG"
+              git tag "$TAG"
+              git push origin "$TAG"
+            fi
+
+      # Install Carthage
+      - run:
+          name: Install Carthage
+          command: |
+            brew update
+            brew install carthage
+
+      # Build Carthage
+      - run:
+          name: Build XCFramework Using Carthage
+          command: |
+            carthage bootstrap --use-xcframeworks --platform iOS --no-use-binaries --cache-builds
+
+            mkdir -p output
+            cp -R Carthage/Build/*.xcframework output/
+
+      # Zip frameworks
+      - run:
+          name: Zip XCFrameworks
+          command: |
+            cd output
+            for f in *.xcframework; do
+              zip -r "${f}.zip" "$f"
+            done
+
+      # Install GitHub CLI
+      - gh/install:
+          version: latest
+
+      # 3. Create Release under the tag
+      - run:
+          name: Create GitHub Release
+          command: |
+            gh release create "$TAG" \
+              --title "$TAG" \
+              --notes "Support Xcode $VERSION" || true
+
+      # 4. Upload assets (XCFrameworks)
+      - run:
+          name: Upload assets to Release
+          command: |
+            for file in output/*.zip; do
+              echo "Uploading $file"
+              gh release upload "$TAG" "$file" --clobber
+            done
+
+workflows:
+  build-and-release:
+    jobs:
+      - build-and-publish
+          # filters:
+            # branches:
+              # only: master
