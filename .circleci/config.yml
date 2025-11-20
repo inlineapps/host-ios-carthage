@@ -89,7 +89,7 @@ jobs:
 workflows:
   build-and-release:
     jobs:
-      - build-and-publish
-          # filters:
-            # branches:
-              # only: master
+      - build-and-publish:
+          filters:
+            branches:
+              only: master
