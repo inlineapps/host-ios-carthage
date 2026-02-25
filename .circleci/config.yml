@@ -97,7 +97,12 @@ jobs:
               --title "$TAG" \
               --notes "$(printf "Support Xcode $VERSION\n\nChecksums:\n$CHECKSUM_NOTE")" || true
 
-      # 4. Upload assets (XCFrameworks)
+      # 4. Save output folder to artifacts
+      - store_artifacts:
+          path: output
+          destination: xcframeworks
+
+      # 5. Upload assets (XCFrameworks)
       - run:
           name: Upload assets to Release
           command: |
