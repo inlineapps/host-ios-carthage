@@ -6,7 +6,7 @@ orbs:
 jobs:
   build-and-publish:
     macos:
-      xcode: "26.1.1"
+      xcode: "26.2"
     resource_class: m4pro.medium
     working_directory: ~/project
     environment:
