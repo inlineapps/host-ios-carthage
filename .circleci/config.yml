@@ -6,7 +6,7 @@ orbs:
 jobs:
   build-and-publish:
     macos:
-      xcode: "26.3"
+      xcode: "26.1.1"
     resource_class: m4pro.medium
     working_directory: ~/project
     environment:
@@ -84,7 +84,7 @@ jobs:
 
             # Export for next steps
             echo "export CHECKSUM_NOTE=$(printf '%q' "$CHECKSUM_NOTE")" >> $BASH_ENV
-            
+
       # Install GitHub CLI
       - gh/install:
           version: latest
